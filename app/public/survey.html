@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script> -->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <h2>Survey Questions</h2>
+      <hr>
+
+      <h3>
+        <strong>A Little Bit About You</strong>
+      </h3>
+      <h4>First and Last Name (Required)</h4>
+      <input type="text" id="name" class="form-control" required>
+
+      <h4>Link to Facebook Image (Required)</h4>
+      <input type="text" id="photo" class="form-control" required>
+
+      <hr>
+
+      <h3>
+        <strong>Question 1</strong>
+      </h3>
+      <h4>State your Case.</h4>
+      <select class="chosen-select" id="q1">
+        <option value=""></option>
+        <option value="1">1 You are a woman seeking a man</option>
+        <option value="2">2 You are a man seeking a woman</option>
+        <option value="3">3 You are a man seeking a man</option>
+        <option value="4">4 You are a woman seeking a woman</option>
+        <option value="5">5 You are a person looking for true love in any of its many forms</option>
+      </select>
+
+      <h3>
+        <strong>Question 2</strong>
+      </h3>
+      <h4>You are looking for a long-term relationship that will ultimately lead to marriage.</h4>
+      <select class="chosen-select" id="q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 3</strong>
+      </h3>
+      <h4>You will adjust your personality depending on the person and situation.</h4>
+      <select class="chosen-select" id="q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 4</strong>
+      </h3>
+      <h4>When you get romantically involved, you feel comfortable telling your partner just about everything.</h4>
+      <select class="chosen-select" id="q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 5</strong>
+      </h3>
+      <h4>It’s difficult for you to let people get emotionally close to you.</h4>
+      <select class="chosen-select" id="q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 6</strong>
+      </h3>
+      <h4>You tend to hold grudges.</h4>
+      <select class="chosen-select" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+
+      <h3>
+        <strong>Question 7</strong>
+      </h3>
+      <h4>You find it difficult to relinquish control of a situation.</h4>
+      <select class="chosen-select" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3>
+        <strong>Question 8</strong>
+      </h3>
+      <h4>You like to be heard rather than listening.</h4>
+      <select class="chosen-select" id="q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3>
+        <strong>Question 9</strong>
+      </h3>
+      <h4>Religion is very important to you.</h4>
+      <select class="chosen-select" id="q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3>
+        <strong>Question 10</strong>
+      </h3>
+      <h4>You have always pictured having children in the future.</h4>
+      <select class="chosen-select" id="q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <br>
+      <br>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        Submit</button>
+
+      <hr>
+      <footer class="footer">
+        <div class="container">
+          <p>
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/DJGilmore4U/FriendFinder">GitHub Repo</a>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2 class="modal-title">
+              <strong>Best Match</strong>
+            </h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <script src="js/survey.js"></script>
+</html>
